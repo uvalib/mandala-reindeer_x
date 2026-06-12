@@ -1,0 +1,44 @@
+version: '3.1'
+services:
+    redis:
+        image: redis
+        build:
+            context: .
+            dockerfile: Dockerfile.redis
+        container_name: workqueue
+        expose:
+            - "6379"
+        volumes:
+            - redis-data:/data
+        restart: always
+    reindeer_x:
+        image: reindeer_x
+        build:
+            context: .
+            dockerfile: Dockerfile.reindeer_x
+        volumes:
+#            - ./docker/reindeer_x/volumes:/var/www:delegated
+            - ../kmaps-solr-sync-out/output:/opt/output
+        deploy:
+            mode: replicated
+            replicas: 1
+            restart_policy:
+                condition: on-failure
+        container_name: reindeer_x
+        environment:
+            - NODE_ENV=development
+            - PORT=${HTTP_PORT}
+            - REDIS_URL=redis://workqueue
+            - REDIS_PORT=6379
+        command: "npm run reindeer_x:dev"
+        links:
+            - redis
+        ports:
+            - "${HTTP_PORT}:${HTTP_PORT}"
+            - "${UDP_PORT}:${UDP_PORT}/udp"
+        depends_on:
+          - redis
+        restart: always
+
+volumes:
+    redis-data:

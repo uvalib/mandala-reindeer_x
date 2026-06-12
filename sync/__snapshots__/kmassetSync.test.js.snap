@@ -1,0 +1,1378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createAssetDoc creates an Asset Entry from a Kmap Entry test single assetEntry 1`] = `
+"{
+   \\"name_roman.popular\\": [
+      \\"Lhasa\\"
+   ],
+   \\"name_roman.scholar\\": [
+      \\"lha sa\\"
+   ],
+   \\"name_trad.chi\\": [
+      \\"&#25289;&#34217;\\"
+   ],
+   \\"name_simp.chi\\": [
+      \\"&#25289;&#33832;\\"
+   ],
+   \\"name_pri.tib.sec.roman\\": [
+      \\"<span lang=\\\\\\"bo\\\\\\" xml:lang=\\\\\\"bo\\\\\\" class=\\\\\\"bo\\\\\\">ལྷ་ས།</span>\\"
+   ],
+   \\"name_pri.tib.sec.chi\\": [
+      \\"<span lang=\\\\\\"bo\\\\\\" xml:lang=\\\\\\"bo\\\\\\" class=\\\\\\"bo\\\\\\">ལྷ་ས།</span>\\"
+   ],
+   \\"name_deva\\": [
+      \\"Lhasa\\"
+   ],
+   \\"name_tibt\\": [
+      \\"ལྷ་ས།\\",
+      \\"ར་ས།\\"
+   ],
+   \\"name_autocomplete\\": [
+      \\"ལྷ་ས།\\",
+      \\"ར་ས།\\",
+      \\"Lasa\\",
+      \\"Lhasa\\",
+      \\"lha sa\\",
+      \\"Rasa\\",
+      \\"Shixiaqu\\",
+      \\"ra sa\\"
+   ],
+   \\"name_latin\\": [
+      \\"Lasa\\",
+      \\"Lhasa\\",
+      \\"lha sa\\",
+      \\"Rasa\\",
+      \\"Shixiaqu\\",
+      \\"ra sa\\"
+   ],
+   \\"name_hans\\": [
+      \\"拉萨\\"
+   ],
+   \\"name_zh\\": [
+      \\"拉萨\\",
+      \\"拉薩\\"
+   ],
+   \\"name_hant\\": [
+      \\"拉薩\\"
+   ],
+   \\"schema_version_i\\": 41,
+   \\"asset_type\\": \\"places\\",
+   \\"id\\": \\"637\\",
+   \\"uid\\": \\"places-637\\",
+   \\"uid_i\\": 63701,
+   \\"url_html\\": \\"undefined/places/637/overview/nojs\\",
+   \\"kmapid\\": [
+      \\"places-1\\",
+      \\"places-13735\\",
+      \\"places-13740\\",
+      \\"places-2\\",
+      \\"places-317\\",
+      \\"places-637\\",
+      \\"subjects-3519\\",
+      \\"subjects-4452\\",
+      \\"subjects-546\\"
+   ],
+   \\"kmapid_is\\": [
+      101,
+      1373501,
+      1374001,
+      201,
+      31701,
+      63701,
+      351902,
+      445202,
+      54602
+   ],
+   \\"kmapid_strict\\": [
+      \\"places-637\\"
+   ],
+   \\"text\\": [
+      \\"Lhasa is the most important city in modern and historical Tibet, both religiously and politically.\\",
+      \\"Lhasa is the most important city in modern and historical Tibet, both religiously and politically.\\",
+      \\"Lhasa is the most important city in modern and historical Tibet, both religiously and politically; located in the geographical center of central Tibet, it is home to the sacred center of Tibet in the Jokhang Temple and the famed Potala Palace, from which the Dalai Lamas ruled over Tibet.\\",
+      \\"Lhasa is the most important city in modern and historical Tibet, both religiously and politically; located in the geographical center of central Tibet, it is home to the sacred center of Tibet in the Jokhang Temple and the famed Potala Palace, from which the Dalai Lamas ruled over Tibet.\\",
+      \\"Lasa\\",
+      \\"Lhasa\\",
+      \\"lha sa\\",
+      \\"Rasa\\",
+      \\"Shixiaqu\\",
+      \\"ra sa\\"
+   ],
+   \\"names_txt\\": [
+      \\"&#25289;&#33832;\\",
+      \\"&#25289;&#34217;\\",
+      \\"<span lang=\\\\\\"bo\\\\\\" xml:lang=\\\\\\"bo\\\\\\" class=\\\\\\"bo\\\\\\">ལྷ་ས།</span>\\",
+      \\"Lasa\\",
+      \\"Lhasa\\",
+      \\"Rasa\\",
+      \\"Shixiaqu\\",
+      \\"lha sa\\",
+      \\"ra sa\\",
+      \\"ར་ས།\\",
+      \\"ལྷ་ས།\\",
+      \\"拉萨\\",
+      \\"拉薩\\"
+   ],
+   \\"name_tibt_sort\\": \\"ལྷ་ས།\\",
+   \\"name_latin_sort\\": \\"Lasa\\",
+   \\"title\\": \\"Lhasa\\",
+   \\"title_latin_sort\\": \\"Lhasa\\",
+   \\"shapes_centroid_grptgeom\\": [
+      \\"{\\\\\\"type\\\\\\":\\\\\\"FeatureCollection\\\\\\",\\\\\\"features\\\\\\":[{\\\\\\"type\\\\\\":\\\\\\"Feature\\\\\\",\\\\\\"geometry\\\\\\":{\\\\\\"type\\\\\\":\\\\\\"Point\\\\\\",\\\\\\"coordinates\\\\\\":[91.1359083974058,29.6430462172591]}}]}\\"
+   ],
+   \\"feature_types_ss\\": [
+      \\"City\\",
+      \\"ADM3\\",
+      \\"Capital of a 1st order administrative division\\"
+   ],
+   \\"ancestors_txt\\": [
+      \\"Earth\\",
+      \\"Asia\\",
+      \\"China\\",
+      \\"Tibet Autonomous Region\\",
+      \\"Lhasa\\",
+      \\"Lhasa\\"
+   ],
+   \\"ancestor_ids_is\\": [
+      13735,
+      13740,
+      1,
+      2,
+      317,
+      637
+   ],
+   \\"kmapid_subjects_idfacet\\": [
+      \\"Capital of a 1st order administrative division|subjects-3519\\",
+      \\"ADM3|subjects-4452\\",
+      \\"City|subjects-546\\"
+   ],
+   \\"kmapid_places_idfacet\\": [
+      \\"China|places-1\\",
+      \\"Earth|places-13735\\",
+      \\"Asia|places-13740\\",
+      \\"Tibet Autonomous Region|places-2\\",
+      \\"Lhasa|places-317\\",
+      \\"Lhasa|places-637\\"
+   ],
+   \\"kmapid_terms_idfacet\\": [],
+   \\"feature_types_idfacet\\": [
+      \\"City|subjects-546\\",
+      \\"ADM3|subjects-4452\\",
+      \\"Capital of a 1st order administrative division|subjects-3519\\"
+   ],
+   \\"related_uid_ss\\": [],
+   \\"position_i\\": 9983,
+   \\"parent_uid\\": \\"places-317\\",
+   \\"perspectives_ss\\": [
+      \\"closest_cult.reg\\",
+      \\"cult.reg\\",
+      \\"pol.admin.hier\\",
+      \\"hist.pol.admin.unit\\",
+      \\"closest_elect.rel\\",
+      \\"elect.rel\\",
+      \\"site.rel\\",
+      \\"closest_envir.rel\\",
+      \\"envir.rel\\"
+   ],
+   \\"kmaps_timestamp\\": \\"2022-06-21T22:56:45.288Z\\",
+   \\"kmaps_version\\": 1736286901641412600,
+   \\"projects_ss\\": [
+      \\"tibet\\"
+   ],
+   \\"caption\\": [
+      \\"Lhasa is the most important city in modern and historical Tibet, both religiously and politically.\\"
+   ],
+   \\"illustrations_images_thumb_ss\\": [
+      \\"https://iiif.lib.virginia.edu/mandala/shanti-image-150941/full/!200,200/0/default.jpg\\"
+   ],
+   \\"illustrations_images_uid_ss\\": [
+      \\"images-325186\\"
+   ]
+}"
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "Geographic Features" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:13:56.492Z",
+  "_version_": 1736284188509732900,
+  "ancestor_id_gen_path": "20",
+  "ancestor_id_path": "20",
+  "ancestor_ids_gen": Array [
+    20,
+  ],
+  "ancestor_ids_generic": Array [
+    20,
+  ],
+  "ancestor_uids_gen": Array [
+    "subjects-20",
+  ],
+  "ancestor_uids_generic": Array [
+    "subjects-20",
+  ],
+  "ancestors": Array [
+    "Geographical Features",
+  ],
+  "ancestors_gen": Array [
+    "Geographical Features",
+  ],
+  "block_type": "parent",
+  "created_at": "2013-09-15T04:03:19Z",
+  "header": "Geographical Features",
+  "id": "subjects-20",
+  "illustrations_images_thumb_ss": Array [
+    "https://iiif.lib.virginia.edu/mandala/shanti-image-551541/full/!200,200/0/default.jpg",
+  ],
+  "illustrations_images_uid_ss": Array [
+    "images-330246",
+  ],
+  "level_gen_i": 1,
+  "level_i": 1,
+  "name": Array [
+    "Geographical Features",
+  ],
+  "name_autocomplete": Array [
+    "Geographical Features",
+  ],
+  "name_deva": Array [
+    "Geographical Features",
+  ],
+  "name_latin": Array [
+    "Geographical Features",
+  ],
+  "name_pri.tib.sec.chi": Array [
+    "Geographical Features",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "Geographical Features",
+  ],
+  "name_roman.popular": Array [
+    "Geographical Features",
+  ],
+  "name_roman.scholar": Array [
+    "Geographical Features",
+  ],
+  "name_simp.chi": Array [
+    "Geographical Features",
+  ],
+  "position_i": 0,
+  "projects_ss": Array [
+    "tibet",
+  ],
+  "summary_eng": Array [
+    "<p>This is the thesaurus of geographical features - administrative, natural, religious, and so forth - used in THL to categorize features described in its Place Dictionary. A feature thesaurus presents a typology of geographical features. These categories of geographic places thus help express the general nature of a given place. Overall, the thesaurus constitutes a hierarchical array of conceptual categories that show the relationship between different types of places.&nbsp; This feature thesaurus is under constant development</p>",
+  ],
+  "summary_eng_542_content_t": Array [
+    "<p>This is the thesaurus of geographical features - administrative, natural, religious, and so forth - used in THL to categorize features described in its Place Dictionary. A feature thesaurus presents a typology of geographical features. These categories of geographic places thus help express the general nature of a given place. Overall, the thesaurus constitutes a hierarchical array of conceptual categories that show the relationship between different types of places.&nbsp; This feature thesaurus is under constant development</p>",
+  ],
+  "text": Array [
+    "<p>This is the thesaurus of geographical features - administrative, natural, religious, and so forth - used in THL to categorize features described in its Place Dictionary. A feature thesaurus presents a typology of geographical features. These categories of geographic places thus help express the general nature of a given place. Overall, the thesaurus constitutes a hierarchical array of conceptual categories that show the relationship between different types of places.&nbsp; This feature thesaurus is under constant development</p>",
+    "<p>This is the thesaurus of geographical features - administrative, natural, religious, and so forth - used in THL to categorize features described in its Place Dictionary. A feature thesaurus presents a typology of geographical features. These categories of geographic places thus help express the general nature of a given place. Overall, the thesaurus constitutes a hierarchical array of conceptual categories that show the relationship between different types of places.&nbsp; This feature thesaurus is under constant development</p>",
+    "Geographical Features",
+  ],
+  "tree": "subjects",
+  "uid": "subjects-20",
+  "uid_i": 2002,
+  "updated_at": "2022-06-07T18:18:15Z",
+}
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "Grammars" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:14:42.157Z",
+  "_version_": 1736284236407636000,
+  "ancestor_id_gen_path": "5812",
+  "ancestor_id_path": "5812",
+  "ancestor_ids_gen": Array [
+    5812,
+  ],
+  "ancestor_ids_generic": Array [
+    5812,
+  ],
+  "ancestor_uids_gen": Array [
+    "subjects-5812",
+  ],
+  "ancestor_uids_generic": Array [
+    "subjects-5812",
+  ],
+  "ancestors": Array [
+    "Grammars",
+  ],
+  "ancestors_gen": Array [
+    "Grammars",
+  ],
+  "block_type": "parent",
+  "created_at": "2013-09-15T04:17:44Z",
+  "header": "Grammars",
+  "id": "subjects-5812",
+  "level_gen_i": 1,
+  "level_i": 1,
+  "name": Array [
+    "Grammars",
+  ],
+  "name_autocomplete": Array [
+    "Grammars",
+  ],
+  "name_deva": Array [
+    "Grammars",
+  ],
+  "name_latin": Array [
+    "Grammars",
+  ],
+  "name_pri.tib.sec.chi": Array [
+    "Grammars",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "Grammars",
+  ],
+  "name_roman.popular": Array [
+    "Grammars",
+  ],
+  "name_roman.scholar": Array [
+    "Grammars",
+  ],
+  "name_simp.chi": Array [
+    "Grammars",
+  ],
+  "position_i": 0,
+  "text": Array [
+    "Grammars",
+  ],
+  "tree": "subjects",
+  "uid": "subjects-5812",
+  "uid_i": 581202,
+  "updated_at": "2017-04-13T05:50:25Z",
+}
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "Language Context" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:13:15.783Z",
+  "_version_": 1736284145864147000,
+  "ancestor_id_gen_path": "6403/4101/4307/185",
+  "ancestor_id_path": "6403/4101/4307/185",
+  "ancestor_ids_gen": Array [
+    6403,
+    4101,
+    4307,
+    185,
+  ],
+  "ancestor_ids_generic": Array [
+    6403,
+    4101,
+    4307,
+    185,
+  ],
+  "ancestor_uids_gen": Array [
+    "subjects-6403",
+    "subjects-4101",
+    "subjects-4307",
+    "subjects-185",
+  ],
+  "ancestor_uids_generic": Array [
+    "subjects-6403",
+    "subjects-4101",
+    "subjects-4307",
+    "subjects-185",
+  ],
+  "ancestors": Array [
+    "Tibet and Himalayas",
+    "Controlled Vocabulary THL Scheme",
+    "Dictionary-Specific  Controlled Vocabulary",
+    "Language Context",
+  ],
+  "ancestors_gen": Array [
+    "Tibet and Himalayas",
+    "Controlled Vocabulary THL Scheme",
+    "Dictionary-Specific  Controlled Vocabulary",
+    "Language Context",
+  ],
+  "block_type": "parent",
+  "created_at": "2013-09-15T04:03:45Z",
+  "header": "Language Context",
+  "id": "subjects-185",
+  "level_gen_i": 4,
+  "level_i": 4,
+  "name": Array [
+    "Language Context",
+  ],
+  "name_autocomplete": Array [
+    "Language Context",
+  ],
+  "name_deva": Array [
+    "Language Context",
+  ],
+  "name_latin": Array [
+    "Language Context",
+  ],
+  "name_pri.tib.sec.chi": Array [
+    "Language Context",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "Language Context",
+  ],
+  "name_roman.popular": Array [
+    "Language Context",
+  ],
+  "name_roman.scholar": Array [
+    "Language Context",
+  ],
+  "name_simp.chi": Array [
+    "Language Context",
+  ],
+  "position_i": 0,
+  "projects_ss": Array [
+    "tibet",
+  ],
+  "text": Array [
+    "Language Context",
+  ],
+  "tree": "subjects",
+  "uid": "subjects-185",
+  "uid_i": 18502,
+  "updated_at": "2022-01-24T00:42:14Z",
+}
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "Language" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:14:36.527Z",
+  "_version_": 1736284230532464600,
+  "ancestor_id_gen_path": "6403/4101/4414/184",
+  "ancestor_id_path": "6403/4101/4414/184",
+  "ancestor_ids_gen": Array [
+    6403,
+    4101,
+    4414,
+    184,
+  ],
+  "ancestor_ids_generic": Array [
+    6403,
+    4101,
+    4414,
+    184,
+  ],
+  "ancestor_uids_gen": Array [
+    "subjects-6403",
+    "subjects-4101",
+    "subjects-4414",
+    "subjects-184",
+  ],
+  "ancestor_uids_generic": Array [
+    "subjects-6403",
+    "subjects-4101",
+    "subjects-4414",
+    "subjects-184",
+  ],
+  "ancestors": Array [
+    "Tibet and Himalayas",
+    "Controlled Vocabulary THL Scheme",
+    "General Controlled Vocabulary",
+    "Language",
+  ],
+  "ancestors_gen": Array [
+    "Tibet and Himalayas",
+    "Controlled Vocabulary THL Scheme",
+    "General Controlled Vocabulary",
+    "Language",
+  ],
+  "block_type": "parent",
+  "created_at": "2013-09-15T04:03:45Z",
+  "header": "Language",
+  "id": "subjects-184",
+  "level_gen_i": 4,
+  "level_i": 4,
+  "name": Array [
+    "Language",
+  ],
+  "name_autocomplete": Array [
+    "Language",
+  ],
+  "name_deva": Array [
+    "Language",
+  ],
+  "name_latin": Array [
+    "Language",
+  ],
+  "name_pri.tib.sec.chi": Array [
+    "Language",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "Language",
+  ],
+  "name_roman.popular": Array [
+    "Language",
+  ],
+  "name_roman.scholar": Array [
+    "Language",
+  ],
+  "name_simp.chi": Array [
+    "Language",
+  ],
+  "position_i": 0,
+  "projects_ss": Array [
+    "tibet",
+  ],
+  "text": Array [
+    "Language",
+  ],
+  "tree": "subjects",
+  "uid": "subjects-184",
+  "uid_i": 18402,
+  "updated_at": "2022-01-24T00:42:12Z",
+}
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "Literary Period" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:13:54.840Z",
+  "_version_": 1736284186749173800,
+  "ancestor_id_gen_path": "6403/4101/4414/187",
+  "ancestor_id_path": "6403/4101/4414/187",
+  "ancestor_ids_gen": Array [
+    6403,
+    4101,
+    4414,
+    187,
+  ],
+  "ancestor_ids_generic": Array [
+    6403,
+    4101,
+    4414,
+    187,
+  ],
+  "ancestor_uids_gen": Array [
+    "subjects-6403",
+    "subjects-4101",
+    "subjects-4414",
+    "subjects-187",
+  ],
+  "ancestor_uids_generic": Array [
+    "subjects-6403",
+    "subjects-4101",
+    "subjects-4414",
+    "subjects-187",
+  ],
+  "ancestors": Array [
+    "Tibet and Himalayas",
+    "Controlled Vocabulary THL Scheme",
+    "General Controlled Vocabulary",
+    "Literary Period",
+  ],
+  "ancestors_gen": Array [
+    "Tibet and Himalayas",
+    "Controlled Vocabulary THL Scheme",
+    "General Controlled Vocabulary",
+    "Literary Period",
+  ],
+  "block_type": "parent",
+  "created_at": "2013-09-15T04:03:45Z",
+  "header": "Literary Period",
+  "id": "subjects-187",
+  "level_gen_i": 4,
+  "level_i": 4,
+  "name": Array [
+    "Literary Period",
+  ],
+  "name_autocomplete": Array [
+    "Literary Period",
+  ],
+  "name_deva": Array [
+    "Literary Period",
+  ],
+  "name_latin": Array [
+    "Literary Period",
+  ],
+  "name_pri.tib.sec.chi": Array [
+    "Literary Period",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "Literary Period",
+  ],
+  "name_roman.popular": Array [
+    "Literary Period",
+  ],
+  "name_roman.scholar": Array [
+    "Literary Period",
+  ],
+  "name_simp.chi": Array [
+    "Literary Period",
+  ],
+  "position_i": 0,
+  "projects_ss": Array [
+    "tibet",
+  ],
+  "text": Array [
+    "Literary Period",
+  ],
+  "tree": "subjects",
+  "uid": "subjects-187",
+  "uid_i": 18702,
+  "updated_at": "2022-01-24T00:42:12Z",
+}
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "Phoneme" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:15:52.495Z",
+  "_version_": 1736284310116237300,
+  "ancestor_id_gen_path": "5812/286/9310",
+  "ancestor_id_path": "5812/286/9310",
+  "ancestor_ids_gen": Array [
+    5812,
+    286,
+    9310,
+  ],
+  "ancestor_ids_generic": Array [
+    5812,
+    286,
+    9310,
+  ],
+  "ancestor_uids_gen": Array [
+    "subjects-5812",
+    "subjects-286",
+    "subjects-9310",
+  ],
+  "ancestor_uids_generic": Array [
+    "subjects-5812",
+    "subjects-286",
+    "subjects-9310",
+  ],
+  "ancestors": Array [
+    "Grammars",
+    "Tibetan Grammatical Function",
+    "Phoneme",
+  ],
+  "ancestors_gen": Array [
+    "Grammars",
+    "Tibetan Grammatical Function",
+    "Phoneme",
+  ],
+  "block_type": "parent",
+  "created_at": "2018-02-07T09:26:44Z",
+  "header": "Phoneme",
+  "id": "subjects-9310",
+  "level_gen_i": 3,
+  "level_i": 3,
+  "name": Array [
+    "Phoneme",
+  ],
+  "name_autocomplete": Array [
+    "Phoneme",
+  ],
+  "name_deva": Array [
+    "Phoneme",
+  ],
+  "name_latin": Array [
+    "Phoneme",
+  ],
+  "name_pri.tib.sec.chi": Array [
+    "Phoneme",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "Phoneme",
+  ],
+  "name_roman.popular": Array [
+    "Phoneme",
+  ],
+  "name_roman.scholar": Array [
+    "Phoneme",
+  ],
+  "name_simp.chi": Array [
+    "Phoneme",
+  ],
+  "position_i": 0,
+  "projects_ss": Array [
+    "tibet",
+  ],
+  "text": Array [
+    "Phoneme",
+  ],
+  "tree": "subjects",
+  "uid": "subjects-9310",
+  "uid_i": 931002,
+  "updated_at": "2022-01-24T00:45:45Z",
+}
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "Register" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:15:35.389Z",
+  "_version_": 1736284292167762000,
+  "ancestor_id_gen_path": "6403/4101/4307/190",
+  "ancestor_id_path": "6403/4101/4307/190",
+  "ancestor_ids_gen": Array [
+    6403,
+    4101,
+    4307,
+    190,
+  ],
+  "ancestor_ids_generic": Array [
+    6403,
+    4101,
+    4307,
+    190,
+  ],
+  "ancestor_uids_gen": Array [
+    "subjects-6403",
+    "subjects-4101",
+    "subjects-4307",
+    "subjects-190",
+  ],
+  "ancestor_uids_generic": Array [
+    "subjects-6403",
+    "subjects-4101",
+    "subjects-4307",
+    "subjects-190",
+  ],
+  "ancestors": Array [
+    "Tibet and Himalayas",
+    "Controlled Vocabulary THL Scheme",
+    "Dictionary-Specific  Controlled Vocabulary",
+    "Register",
+  ],
+  "ancestors_gen": Array [
+    "Tibet and Himalayas",
+    "Controlled Vocabulary THL Scheme",
+    "Dictionary-Specific  Controlled Vocabulary",
+    "Register",
+  ],
+  "block_type": "parent",
+  "created_at": "2013-09-15T04:03:46Z",
+  "header": "Register",
+  "id": "subjects-190",
+  "level_gen_i": 4,
+  "level_i": 4,
+  "name": Array [
+    "Register",
+  ],
+  "name_autocomplete": Array [
+    "Register",
+  ],
+  "name_deva": Array [
+    "Register",
+  ],
+  "name_latin": Array [
+    "Register",
+  ],
+  "name_pri.tib.sec.chi": Array [
+    "Register",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "Register",
+  ],
+  "name_roman.popular": Array [
+    "Register",
+  ],
+  "name_roman.scholar": Array [
+    "Register",
+  ],
+  "name_simp.chi": Array [
+    "Register",
+  ],
+  "position_i": 0,
+  "projects_ss": Array [
+    "tibet",
+  ],
+  "text": Array [
+    "Register",
+  ],
+  "tree": "subjects",
+  "uid": "subjects-190",
+  "uid_i": 19002,
+  "updated_at": "2022-01-24T00:42:14Z",
+}
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "Tibetan Gramatical Function" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:14:05.480Z",
+  "_version_": 1736284197949014000,
+  "ancestor_id_gen_path": "5812/286",
+  "ancestor_id_path": "5812/286",
+  "ancestor_ids_gen": Array [
+    5812,
+    286,
+  ],
+  "ancestor_ids_generic": Array [
+    5812,
+    286,
+  ],
+  "ancestor_uids_gen": Array [
+    "subjects-5812",
+    "subjects-286",
+  ],
+  "ancestor_uids_generic": Array [
+    "subjects-5812",
+    "subjects-286",
+  ],
+  "ancestors": Array [
+    "Grammars",
+    "Tibetan Grammatical Function",
+  ],
+  "ancestors_gen": Array [
+    "Grammars",
+    "Tibetan Grammatical Function",
+  ],
+  "block_type": "parent",
+  "created_at": "2013-09-15T04:03:57Z",
+  "header": "Tibetan Grammatical Function",
+  "id": "subjects-286",
+  "level_gen_i": 2,
+  "level_i": 2,
+  "name": Array [
+    "Tibetan Grammatical Function",
+  ],
+  "name_autocomplete": Array [
+    "Tibetan Grammatical Function",
+  ],
+  "name_deva": Array [
+    "Tibetan Grammatical Function",
+  ],
+  "name_latin": Array [
+    "Tibetan Grammatical Function",
+  ],
+  "name_pri.tib.sec.chi": Array [
+    "Tibetan Grammatical Function",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "Tibetan Grammatical Function",
+  ],
+  "name_roman.popular": Array [
+    "Tibetan Grammatical Function",
+  ],
+  "name_roman.scholar": Array [
+    "Tibetan Grammatical Function",
+  ],
+  "name_simp.chi": Array [
+    "Tibetan Grammatical Function",
+  ],
+  "position_i": 0,
+  "projects_ss": Array [
+    "tibet",
+  ],
+  "summary_eng": Array [
+    "<p>The THL Tibetan Grammatical Functions knowledge map (reference grammar) is an open-ended collaborative project to document Tibetan grammar from multiple points of view, though its initial structure and content has been created by Nicolas Tournadre. Submissions are welcome from the scholarly community, from single line notes to extensive analysis; however, submissions will be peer reviewed and are not automatically accepted. All submissions are credited to the author, and independent home pages will be created for authors with extensive contributions. Please contact us at thl@collab.itc.virginia.edu.</p>",
+  ],
+  "summary_eng_563_content_t": Array [
+    "<p>The THL Tibetan Grammatical Functions knowledge map (reference grammar) is an open-ended collaborative project to document Tibetan grammar from multiple points of view, though its initial structure and content has been created by Nicolas Tournadre. Submissions are welcome from the scholarly community, from single line notes to extensive analysis; however, submissions will be peer reviewed and are not automatically accepted. All submissions are credited to the author, and independent home pages will be created for authors with extensive contributions. Please contact us at thl@collab.itc.virginia.edu.</p>",
+  ],
+  "text": Array [
+    "<p>The THL Tibetan Grammatical Functions knowledge map (reference grammar) is an open-ended collaborative project to document Tibetan grammar from multiple points of view, though its initial structure and content has been created by Nicolas Tournadre. Submissions are welcome from the scholarly community, from single line notes to extensive analysis; however, submissions will be peer reviewed and are not automatically accepted. All submissions are credited to the author, and independent home pages will be created for authors with extensive contributions. Please contact us at thl@collab.itc.virginia.edu.</p>",
+    "<p>The THL Tibetan Grammatical Functions knowledge map (reference grammar) is an open-ended collaborative project to document Tibetan grammar from multiple points of view, though its initial structure and content has been created by Nicolas Tournadre. Submissions are welcome from the scholarly community, from single line notes to extensive analysis; however, submissions will be peer reviewed and are not automatically accepted. All submissions are credited to the author, and independent home pages will be created for authors with extensive contributions. Please contact us at thl@collab.itc.virginia.edu.</p>",
+    "Tibetan Grammatical Function",
+  ],
+  "tree": "subjects",
+  "uid": "subjects-286",
+  "uid_i": 28602,
+  "updated_at": "2022-01-24T00:45:44Z",
+}
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "Topics" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:13:59.576Z",
+  "_version_": 1736284191736201200,
+  "ancestor_id_gen_path": "6403/272",
+  "ancestor_id_path": "6403/272",
+  "ancestor_ids_gen": Array [
+    6403,
+    272,
+  ],
+  "ancestor_ids_generic": Array [
+    6403,
+    272,
+  ],
+  "ancestor_uids_gen": Array [
+    "subjects-6403",
+    "subjects-272",
+  ],
+  "ancestor_uids_generic": Array [
+    "subjects-6403",
+    "subjects-272",
+  ],
+  "ancestors": Array [
+    "Tibet and Himalayas",
+    "Topics",
+  ],
+  "ancestors_gen": Array [
+    "Tibet and Himalayas",
+    "Topics",
+  ],
+  "block_type": "parent",
+  "created_at": "2013-09-15T04:03:56Z",
+  "header": "Topics",
+  "id": "subjects-272",
+  "illustrations_images_thumb_ss": Array [
+    "https://iiif.lib.virginia.edu/mandala/shanti-image-157711/full/!200,200/0/default.jpg",
+  ],
+  "illustrations_images_uid_ss": Array [
+    "images-340366",
+  ],
+  "level_gen_i": 2,
+  "level_i": 2,
+  "name": Array [
+    "Topics",
+  ],
+  "name_autocomplete": Array [
+    "Topics",
+  ],
+  "name_deva": Array [
+    "Topics",
+  ],
+  "name_latin": Array [
+    "Topics",
+  ],
+  "name_pri.tib.sec.chi": Array [
+    "Topics",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "Topics",
+  ],
+  "name_roman.popular": Array [
+    "Topics",
+  ],
+  "name_roman.scholar": Array [
+    "Topics",
+  ],
+  "name_simp.chi": Array [
+    "Topics",
+  ],
+  "position_i": 0,
+  "projects_ss": Array [
+    "tibet",
+  ],
+  "text": Array [
+    "Topics",
+  ],
+  "tree": "subjects",
+  "uid": "subjects-272",
+  "uid_i": 27202,
+  "updated_at": "2022-06-07T18:18:25Z",
+}
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "lhasa" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:56:45.288Z",
+  "_version_": 1736286901641412600,
+  "ancestor_id_closest_cult.reg_path": "13735/13740/1/2/317/637",
+  "ancestor_id_closest_elect.rel_path": "13735/13740/1/2/317/637",
+  "ancestor_id_closest_envir.rel_path": "15431/13740/1/2/317/637",
+  "ancestor_id_cult.reg_path": "13735/13740",
+  "ancestor_id_elect.rel_path": "13735",
+  "ancestor_id_envir.rel_path": "15431/13740",
+  "ancestor_id_hist.pol.admin.unit_path": "24107",
+  "ancestor_id_path": "13735/13740/1/2/317/637",
+  "ancestor_id_pol.admin.hier_path": "13735/13740/1/2/317/637",
+  "ancestor_id_site.rel_path": "26870",
+  "ancestor_ids_closest_cult.reg": Array [
+    13735,
+    13740,
+    1,
+    2,
+    317,
+    637,
+  ],
+  "ancestor_ids_closest_elect.rel": Array [
+    13735,
+    13740,
+    1,
+    2,
+    317,
+    637,
+  ],
+  "ancestor_ids_closest_envir.rel": Array [
+    15431,
+    13740,
+    1,
+    2,
+    317,
+    637,
+  ],
+  "ancestor_ids_generic": Array [
+    13735,
+    13740,
+    1,
+    2,
+    317,
+    637,
+  ],
+  "ancestor_ids_pol.admin.hier": Array [
+    13735,
+    13740,
+    1,
+    2,
+    317,
+    637,
+  ],
+  "ancestor_uids_closest_cult.reg": Array [
+    "places-13735",
+    "places-13740",
+    "places-1",
+    "places-2",
+    "places-317",
+    "places-637",
+  ],
+  "ancestor_uids_closest_elect.rel": Array [
+    "places-13735",
+    "places-13740",
+    "places-1",
+    "places-2",
+    "places-317",
+    "places-637",
+  ],
+  "ancestor_uids_closest_envir.rel": Array [
+    "places-15431",
+    "places-13740",
+    "places-1",
+    "places-2",
+    "places-317",
+    "places-637",
+  ],
+  "ancestor_uids_generic": Array [
+    "places-13735",
+    "places-13740",
+    "places-1",
+    "places-2",
+    "places-317",
+    "places-637",
+  ],
+  "ancestor_uids_pol.admin.hier": Array [
+    "places-13735",
+    "places-13740",
+    "places-1",
+    "places-2",
+    "places-317",
+    "places-637",
+  ],
+  "ancestors": Array [
+    "Earth",
+    "Asia",
+    "China",
+    "Tibet Autonomous Region",
+    "Lhasa",
+    "Lhasa",
+  ],
+  "ancestors_closest_cult.reg": Array [
+    "Earth",
+    "Asia",
+    "China",
+    "Tibet Autonomous Region",
+    "Lhasa",
+    "Lhasa",
+  ],
+  "ancestors_closest_elect.rel": Array [
+    "Earth",
+    "Asia",
+    "China",
+    "Tibet Autonomous Region",
+    "Lhasa",
+    "Lhasa",
+  ],
+  "ancestors_closest_envir.rel": Array [
+    "Earth",
+    "Asia",
+    "China",
+    "Tibet Autonomous Region",
+    "Lhasa",
+    "Lhasa",
+  ],
+  "ancestors_pol.admin.hier": Array [
+    "Earth",
+    "Asia",
+    "China",
+    "Tibet Autonomous Region",
+    "Lhasa",
+    "Lhasa",
+  ],
+  "block_type": "parent",
+  "caption_eng": Array [
+    "<p>Lhasa is the most important city in modern and historical Tibet, both religiously and politically.</p>",
+  ],
+  "caption_eng_2_content_t": Array [
+    "<p>Lhasa is the most important city in modern and historical Tibet, both religiously and politically.</p>",
+  ],
+  "closest_fid_with_shapes": 637,
+  "code_gb.ext_value_s": "5401010000",
+  "created_at": "2008-02-25T12:45:53Z",
+  "feature_type_ids": Array [
+    546,
+    4452,
+    3519,
+  ],
+  "feature_types": Array [
+    "City",
+    "ADM3",
+    "Capital of a 1st order administrative division",
+  ],
+  "has_altitudes": true,
+  "has_shapes": true,
+  "header": "Lhasa",
+  "homepage_text_subjects-570_s": "47846",
+  "id": "places-637",
+  "illustrations_images_thumb_ss": Array [
+    "https://iiif.lib.virginia.edu/mandala/shanti-image-150941/full/!200,200/0/default.jpg",
+  ],
+  "illustrations_images_uid_ss": Array [
+    "images-325186",
+  ],
+  "interactive_map_url": "http://dev.thlib.org/places/maps/interactive/#fid:637",
+  "kmz_url": "http://dev.shanti.virginia.edu/features/gis_resources/637.kmz",
+  "level_closest_admin.rel_i": 0,
+  "level_closest_cult.reg_i": 6,
+  "level_closest_cult.rel_i": 0,
+  "level_closest_elect.rel_i": 6,
+  "level_closest_envir.rel_i": 6,
+  "level_closest_geo.rel_i": 0,
+  "level_closest_hist.pol.admin.unit_i": 0,
+  "level_closest_org.rel_i": 0,
+  "level_closest_pol.rel_i": 0,
+  "level_closest_rel.rel_i": 0,
+  "level_closest_site.rel_i": 0,
+  "level_i": 6,
+  "level_pol.admin.hier_i": 6,
+  "name": Array [
+    "Lasa",
+    "Lhasa",
+    "lha sa",
+    "Rasa",
+    "Shixiaqu",
+    "ra sa",
+  ],
+  "name_autocomplete": Array [
+    "ལྷ་ས།",
+    "ར་ས།",
+    "Lasa",
+    "Lhasa",
+    "lha sa",
+    "Rasa",
+    "Shixiaqu",
+    "ra sa",
+  ],
+  "name_deva": Array [
+    "Lhasa",
+  ],
+  "name_hans": Array [
+    "拉萨",
+  ],
+  "name_hant": Array [
+    "拉薩",
+  ],
+  "name_latin": Array [
+    "Lasa",
+    "Lhasa",
+    "lha sa",
+    "Rasa",
+    "Shixiaqu",
+    "ra sa",
+  ],
+  "name_pri.tib.sec.chi": Array [
+    "<span lang=\\"bo\\" xml:lang=\\"bo\\" class=\\"bo\\">ལྷ་ས།</span>",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "<span lang=\\"bo\\" xml:lang=\\"bo\\" class=\\"bo\\">ལྷ་ས།</span>",
+  ],
+  "name_roman.popular": Array [
+    "Lhasa",
+  ],
+  "name_roman.scholar": Array [
+    "lha sa",
+  ],
+  "name_simp.chi": Array [
+    "&#25289;&#33832;",
+  ],
+  "name_tibt": Array [
+    "ལྷ་ས།",
+    "ར་ས།",
+  ],
+  "name_trad.chi": Array [
+    "&#25289;&#34217;",
+  ],
+  "name_zh": Array [
+    "拉萨",
+    "拉薩",
+  ],
+  "position_i": 9983,
+  "projects_ss": Array [
+    "tibet",
+  ],
+  "shapes_centroid_grptgeom": Array [
+    "{\\"type\\":\\"FeatureCollection\\",\\"features\\":[{\\"type\\":\\"Feature\\",\\"geometry\\":{\\"type\\":\\"Point\\",\\"coordinates\\":[91.1359083974058,29.6430462172591]}}]}",
+  ],
+  "summary_eng": Array [
+    "<p>Lhasa is the most important city in modern and historical Tibet, both religiously and politically; located in the geographical center of central Tibet, it is home to the sacred center of Tibet in the Jokhang Temple and the famed Potala Palace, from which the Dalai Lamas ruled over Tibet.</p>",
+  ],
+  "summary_eng_1_content_t": Array [
+    "<p>Lhasa is the most important city in modern and historical Tibet, both religiously and politically; located in the geographical center of central Tibet, it is home to the sacred center of Tibet in the Jokhang Temple and the famed Potala Palace, from which the Dalai Lamas ruled over Tibet.</p>",
+  ],
+  "text": Array [
+    "<p>Lhasa is the most important city in modern and historical Tibet, both religiously and politically.</p>",
+    "<p>Lhasa is the most important city in modern and historical Tibet, both religiously and politically.</p>",
+    "<p>Lhasa is the most important city in modern and historical Tibet, both religiously and politically; located in the geographical center of central Tibet, it is home to the sacred center of Tibet in the Jokhang Temple and the famed Potala Palace, from which the Dalai Lamas ruled over Tibet.</p>",
+    "<p>Lhasa is the most important city in modern and historical Tibet, both religiously and politically; located in the geographical center of central Tibet, it is home to the sacred center of Tibet in the Jokhang Temple and the famed Potala Palace, from which the Dalai Lamas ruled over Tibet.</p>",
+    "Lasa",
+    "Lhasa",
+    "lha sa",
+    "Rasa",
+    "Shixiaqu",
+    "ra sa",
+  ],
+  "tree": "places",
+  "uid": "places-637",
+  "uid_i": 63701,
+  "updated_at": "2022-06-07T18:34:11Z",
+}
+`;
+
+exports[`getKmapEntries retrieves a single kmaps entry returns expected data: "thod rgal/" 1`] = `
+Object {
+  "_timestamp_": "2022-06-21T22:08:52.345Z",
+  "_version_": 1736283869576953900,
+  "ancestor_id_eng.alpha_path": "247647",
+  "ancestor_id_tib.alpha_path": "80697/221561/85193",
+  "ancestor_ids_tib.alpha": Array [
+    80697,
+    221561,
+    85193,
+  ],
+  "ancestor_uids_tib.alpha": Array [
+    "terms-80697",
+    "terms-221561",
+    "terms-85193",
+  ],
+  "ancestors_tib.alpha": Array [
+    "tha",
+    "thong zhig 'dzin/",
+    "thod rgal/",
+  ],
+  "associated_subject_184_ls": Array [
+    195,
+  ],
+  "associated_subject_184_ss": Array [
+    "English",
+  ],
+  "associated_subject_185_ls": Array [
+    217,
+  ],
+  "associated_subject_185_ss": Array [
+    "Literary",
+  ],
+  "associated_subject_187_ls": Array [
+    221,
+  ],
+  "associated_subject_187_ss": Array [
+    "Classical Literary",
+  ],
+  "associated_subject_190_ls": Array [
+    263,
+  ],
+  "associated_subject_190_ss": Array [
+    "High Honorific",
+  ],
+  "associated_subject_272_ls": Array [
+    2616,
+  ],
+  "associated_subject_272_ss": Array [
+    "meditation",
+  ],
+  "associated_subject_286_ls": Array [
+    1719,
+  ],
+  "associated_subject_286_ss": Array [
+    "Proper Nouns",
+  ],
+  "associated_subject_5812_ls": Array [
+    1718,
+  ],
+  "associated_subject_5812_ss": Array [
+    "Common Noun",
+  ],
+  "associated_subject_9310_ls": Array [
+    9315,
+  ],
+  "associated_subject_9310_ss": Array [
+    "Expression",
+  ],
+  "associated_subject_ids": Array [
+    9315,
+    1718,
+    217,
+    195,
+    221,
+    263,
+    2616,
+    1719,
+  ],
+  "associated_subjects": Array [
+    "Expression",
+    "Common Noun",
+    "Literary",
+    "English",
+    "Classical Literary",
+    "High Honorific",
+    "meditation",
+    "Proper Nouns",
+  ],
+  "block_type": "parent",
+  "caption_eng": Array [
+    "<p>A term used in reference to contemplative practices that skip steps or work more directly in some sense.</p>",
+  ],
+  "caption_eng_41_content_t": Array [
+    "<p>A term used in reference to contemplative practices that skip steps or work more directly in some sense.</p>",
+  ],
+  "cascading_position_i": 10045035,
+  "created_at": "2018-02-22T04:11:00Z",
+  "etymologies_ss": Array [
+    "<p>Literally &ldquo;skull-traverse&rdquo; or &ldquo;crest-traverse,&rdquo; this syllabic meaning apparently indicates directly crossing the crest of a hill or mountain rather than the easier but more roundabout and gradual path of winding along the mountain stage-by-stage to gradually proceed to the other side of a pass. All of the various meanings of the term derive from that basic sense of directness vs. more gradual approaches, and apply to contemplative processes that are either more direct approaches or skip certain steps.</p>",
+  ],
+  "etymology_122_content_s": "<p>Literally &ldquo;skull-traverse&rdquo; or &ldquo;crest-traverse,&rdquo; this syllabic meaning apparently indicates directly crossing the crest of a hill or mountain rather than the easier but more roundabout and gradual path of winding along the mountain stage-by-stage to gradually proceed to the other side of a pass. All of the various meanings of the term derive from that basic sense of directness vs. more gradual approaches, and apply to contemplative processes that are either more direct approaches or skip certain steps.</p>",
+  "etymology_122_type_subjects-202_s": "Basic Syllabic Etymology",
+  "header": "thod rgal/",
+  "id": "terms-85193",
+  "level_closest_eng.alpha_i": 0,
+  "level_closest_gram.sem.rel_i": 0,
+  "level_tib.alpha_i": 3,
+  "name": Array [
+    "tögel",
+    "thod rgal/",
+    "direct transcendence",
+  ],
+  "name_autocomplete": Array [
+    "ཐོད་རྒལ",
+    "tögel",
+    "thod rgal/",
+    "direct transcendence",
+  ],
+  "name_latin": Array [
+    "tögel",
+    "thod rgal/",
+    "direct transcendence",
+  ],
+  "name_pri.tib.sec.roman": Array [
+    "<span lang=\\"bo\\" xml:lang=\\"bo\\" class=\\"bo\\">ཐོད་རྒལ</span>",
+  ],
+  "name_roman.scholar": Array [
+    "thod rgal/",
+  ],
+  "name_tibt": Array [
+    "ཐོད་རྒལ",
+  ],
+  "position_i": 35,
+  "projects_ss": Array [
+    "tibet",
+    "uf",
+    "higgins",
+  ],
+  "text": Array [
+    "<p>A term used in reference to contemplative practices that skip steps or work more directly in some sense.</p>",
+    "<p>A term used in reference to contemplative practices that skip steps or work more directly in some sense.</p>",
+    "tögel",
+    "thod rgal/",
+    "direct transcendence",
+  ],
+  "tree": "terms",
+  "uid": "terms-85193",
+  "uid_i": 8519303,
+  "updated_at": "2022-04-07T11:55:58Z",
+}
+`;

@@ -1,0 +1,7 @@
+#!/bin/sh
+WATCHDIR=/opt/output
+HANDLER=/usr/local/bin/synchandler
+
+killall clsync
+echo "Starting clsync"
+clsync -b -w5 -t5 --one-file-system --mode=direct --watch-dir=$WATCHDIR --destination-dir=$WATCHDIR --sync-handler=$HANDLER

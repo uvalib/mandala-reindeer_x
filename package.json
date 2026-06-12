@@ -1,0 +1,49 @@
+{
+  "name": "kmaps-solr-sync",
+  "version": "1.0.0",
+  "description": "Utility to generate and synchronize kmaps-in-kmassets entries",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest --projects test/unit",
+    "test:e2e": "jest --detectOpenHandles --projects test/e2e",
+    "watch": "jest --watchAll",
+    "reindeer_x:dev": "node --unhandled-rejections=strict server/index.js",
+    "rdx-build": "docker-compose -f docker-compose.reindeer_x.yml build",
+    "rdx-build-up": "docker-compose -f docker-compose.reindeer_x.yml up --build",
+    "rdx-up": "docker-compose -f docker-compose.reindeer_x.yml up -d",
+    "rdx-up-follow": "docker-compose -f docker-compose.reindeer_x.yml up",
+    "rdx-down": "docker-compose -f docker-compose.reindeer_x.yml down",
+    "redis-clear": "docker volume rm kmaps-solr-sync_redis-data"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanti-uva/kmaps-solr-sync.git"
+  },
+  "author": "Yuji Shinozaki <ys2n@virginia.edu>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shanti-uva/kmaps-solr-sync/issues"
+  },
+  "homepage": "https://github.com/shanti-uva/kmaps-solr-sync#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bee-queue": "^1.2.3",
+    "bull-arena": "^3.4.0",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^9.0.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "jest": "^24.9.0",
+    "node-localstorage": "^2.1.6",
+    "npm": "^8.4.0",
+    "solr-client": "^0.7.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@types/jest": "^26.0.15",
+    "axios": "^0.21.0",
+    "mockshot": "^0.2.8",
+    "supertest": "^6.0.1"
+  }
+}

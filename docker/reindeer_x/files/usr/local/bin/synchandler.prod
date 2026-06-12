@@ -1,0 +1,37 @@
+#!/usr/bin/perl
+
+my $EXT="";
+my $TMPFILE = "/tmp/synch.$$";
+# my $DRYRUN = "--dry-run";
+my $DRYRUN = "";
+my $FLAGS = "--log-level INFO";
+# print join(' ',@ARGV),"\n";
+@args=@ARGV;
+$src=pop @args;
+
+# only normal files with actual contents ending with .json
+#
+@files=map {  ( $_=~/\.json$/ && -f "$src/$_" && -s "$src/$_")?$_:() } @args;
+# @files=@args;
+$files=join("\n",@files);
+
+# print "src=",$src,"\n";
+# print "files=\n",$files, "\n"; 
+
+open (fh, ">", $TMPFILE) or die "Can't open tempfile $TMPFILE: $!\n";
+print fh $files,"\n";
+close fh or die "Error closing tempfile $TMPFILE: $!\n";
+
+$app="mandala${EXT}.lib.virginia.edu";
+if ($src =~ /docroot\/sites\/(mandala-[\w\-]+.lib.virginia.edu)\/private\/files\/solrdocs/) {
+	$app=$1;
+}
+
+# print "APP=$app\n";
+# print "SRC=$src\n";
+# print "TMPFILE=$TMPFILE\n";
+# print "FLAGS=$FLAGS\n";
+
+$ret=`rclone copy $DRYRUN --checksum --files-from $TMPFILE $FLAGS $src s3:mandala-ingest-production-inbound/kmassets-inbound/test/$app 2>&1`;
+
+if ($ret) { print "$TMPFILE:\n$ret\n"; } else { print "$TMPFILE: success\n"; unlink $TMPFILE };

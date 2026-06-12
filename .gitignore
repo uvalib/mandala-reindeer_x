@@ -1,0 +1,8 @@
+.env
+node_modules/
+scratch/
+output/
+output-sav/
+docker/reindeer_x/files/root/.aws/credentials
+docker/reindeer_x/files/root/.config/rclone/rclone.conf
+docker/reindeer_x/files/etc/passwd-s3fs

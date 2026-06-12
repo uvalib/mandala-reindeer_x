@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+USAGE="$0 <solrquery>"
+QUERY=$1
+
+if [ -z "$1" ]; then
+	echo $USAGE
+	exit 1
+fi
+
+echo QUERY=$QUERY
+
+DEV_ROOT="https://ss251856-us-east-1-aws.measuredsearch.com/solr"
+PROD_ROOT="https://ss395824-us-east-1-aws.measuredsearch.com/solr"
+
+DEV_URL="$DEV_ROOT/kmassets_dev/select?echoParams=all&wt=json&q=${QUERY}"
+PROD_URL="$PROD_ROOT/kmassets/select?echoParams=all&wt=json&q=${QUERY}"
+
+echo "Comparing $DEV_URL"
+echo "And       $PROD_URL"
+
+#curl -s $DEV_URL | jq
+#curl -s $PROD_URL | jq
+
+
+diff -y --left-column <(curl -s $DEV_URL | jq) <(curl -s $PROD_URL | jq)

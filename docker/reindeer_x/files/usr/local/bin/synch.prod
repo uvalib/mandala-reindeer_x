@@ -1,0 +1,15 @@
+#!/bin/sh
+EXT=
+DIRTMPL=/var/aegir/platforms/mandala-base${EXT}/docroot/sites/mandala-APP.lib.virginia.edu/private/files/solrdocs 
+HANDLER=/usr/local/bin/synchandler
+
+killall clsync
+for i in images texts sources visuals av; do
+	app="${i}${EXT}";
+	watchdir=`echo $DIRTMPL | sed "s/APP/$app/g"`
+	echo "Starting clsync for $app"
+	if [ ! -d $watchdir ]; then
+		mkdir $watchdir;
+	fi
+	clsync -b -w5 -t5 --one-file-system --mode=direct --watch-dir=$watchdir --destination-dir=$watchdir --sync-handler=$HANDLER
+done

@@ -1,0 +1,35 @@
+FROM node:18-bullseye
+WORKDIR '/var/www/app'
+RUN pwd
+RUN ls -l
+COPY package.json .
+COPY package-lock.json .
+RUN npm ci
+RUN chown node:node /var/www/app
+RUN ls -l
+COPY . .
+
+RUN chmod 1777 /tmp
+RUN apt-get -y update && \
+   apt-get -y install --no-install-recommends --fix-missing vim less && \
+   apt-get -y install --no-install-recommends --fix-missing gosu && \
+   apt-get -y install --no-install-recommends --fix-missing s3fs && \
+   apt-get -y install --no-install-recommends --fix-missing clsync && \
+   apt-get -y install --no-install-recommends --fix-missing rclone && \
+   rm -rf /var/lib/apt/lists/* 
+
+
+COPY docker/reindeer_x/files/root/.config/rclone/rclone.conf /root/.config/rclone/rclone.conf
+COPY docker/reindeer_x/files/root/.aws/credentials /root/.aws/credentials
+COPY docker/reindeer_x/files/root/.config/rclone/rclone.conf /root/.rclone.conf
+
+COPY docker/reindeer_x/files/root/.config/rclone/rclone.conf /home/node/.config/rclone/rclone.conf
+COPY docker/reindeer_x/files/root/.config/rclone/rclone.conf /home/node/.rclone.conf
+COPY docker/reindeer_x/files/root/.aws/credentials /home/node/.aws/credentials
+RUN chown -R node:node /home/node/.aws /home/node/.config/rclone /home/node/.rclone.conf
+
+COPY docker/reindeer_x/files/usr/local/bin/synch /usr/local/bin/synch
+COPY docker/reindeer_x/files/usr/local/bin/synchandler /usr/local/bin/synchandler
+RUN chmod 775 /usr/local/bin/synch /usr/local/bin/synchandler
+
+USER node
