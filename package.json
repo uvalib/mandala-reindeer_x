@@ -27,9 +27,11 @@
   },
   "homepage": "https://github.com/shanti-uva/kmaps-solr-sync#readme",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.1069.0",
     "async": "^3.2.0",
     "bee-queue": "^1.2.3",
     "bull-arena": "^3.4.0",
+    "chokidar": "^5.0.0",
     "dotenv": "^8.2.0",
     "dotenv-expand": "^9.0.0",
     "express": "^4.17.1",

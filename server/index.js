@@ -3,6 +3,7 @@ const DEBUG = false;
 const express = require('express');
 const {processRequest} = require("../queue/jobCreationQueue");
 const {INDEXER, JOBCREATOR} = require("../queue/queueConfigs");
+const {startFileWatcher} = require("../sync/fileWatcher");
 const http = require('http');
 const Arena = require('bull-arena');
 const Bee = require("bee-queue");
@@ -213,6 +214,10 @@ const arena = Arena({
 });
 
 app.use("/", arena);
+
+// Start the solrdocs → S3 file watcher (replaces the legacy synch/synchandler
+// pipeline). No-op unless ENABLE_FILE_WATCHER=true. See sync/fileWatcher.js.
+startFileWatcher();
 
 // Create and start the server
 const server = http.createServer(app);
