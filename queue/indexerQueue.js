@@ -19,7 +19,6 @@ const SOLR_PROD_USER = process.env.SOLR_PROD_USER;
 const SOLR_PROD_PASS = process.env.SOLR_PROD_PASS;
 const UDP_PORT = process.env.UDP_PORT;
 const FORCE_OVERWRITE = process.env.FORCE_OVERWRITE;   // NOTE THIS IS A STRING TRUE/FALSE!
-const NO_INDEX_WRITE = true; // always true for now!
 
 const Queue = require('bee-queue');
 const async = require("async");
@@ -266,7 +265,7 @@ const processor = async (job) => {
         // util.log(job.id, " SKIPPED:", skips.length, "/", outcomes.length);
         util.log("ASSESSING OUTCOMES: " , job.id," WRITES:", writes.length, "/", outcomes.length, " WRITTEN:", writes.map((x) => x?.uid).join(","));
 
-        if (writes && writes.length && !NO_INDEX_WRITE) {
+        if (writes && writes.length) {
             util.log(`sending Soft commit for ${job.id} : ${job.data.title}`);
             CONFIG.kmassets_write_client.softCommit((err, ret) => {
                 job.reportProgress({
